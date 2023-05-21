@@ -1,0 +1,164 @@
+body {
+    font-family: Poppins;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    align-items: center;
+    background-image: url(https://mixmap-elementor.travelerwp.com/wp-content/uploads/2019/02/img_hero_6.jpg);
+    background-size: cover;
+    color: white;
+    height: 800px;
+}
+
+
+/* Color header 1 */
+.nav-down nav a{
+    color: white;
+}
+
+/* Fondo y distribucion de componentes header 1 */
+.header-1 {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    background-color: #1A2B48;
+    width: 100%;
+    height: 80px;
+}
+
+/* Centrar lo del nav que use en los links del header */
+.header-1 div,
+.header-1 nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-1 img {
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.header-2{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-2 div{
+    display: flex;
+}
+
+.header-2 div:nth-child(2) button{
+    color: white;
+    background-color: #FA5636;
+    border-radius: 3px;
+    border: 0;
+    height: 40px;
+}
+
+.header-2 a {   
+    padding-right: 50px;
+}
+
+
+/* Quitar las lineas de abajo de los links */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Padding derecho de los links */
+nav a {
+    font-weight: 100;
+    padding-right: 10px;
+}
+
+/* Imagen de fondo para el inicio */
+
+
+/* Padding que me pego la parte de arriba de la imagen de fondo con el header de arriba */
+
+.texto-bienvenida{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-starts;
+    width: 100%;
+    margin-left: 50px;
+}
+
+.texto-bienvenida h2{
+    font-size: 54px;
+}
+
+.texto-bienvenida h2:nth-child(2){
+    font-size: 18px;
+}
+
+.img-background h1{
+    font-size: 100px;
+
+}
+
+/*Section offers*/
+
+.offers{
+    padding-top: 40px;  
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 10px;
+    margin: 0 auto;
+    max-width: 1290px;
+    position: relative;
+}
+
+.offers-text{
+    position: absolute;
+
+}
+
+/* Acomodar enlaces Mixmap */
+.header-2 nav {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 310px;
+}
+
+.contenedor-filtros{
+    box-sizing: border-box;
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+}
+
+.menu-filtros{
+    display: flex;
+
+}
+
+.menu-filtros button{
+    border: 0;
+    border-radius: 8px 8px 0 0;
+    margin-right: 1px;  
+    background-color: var(--link-color,#1A2B48);
+    color: #fff;
+    border-color: var(--link-color,#1A2B48);
+    padding: 7px 30px;
+    font-size: 14px;
+    margin-right: 1px;
+}
+
+.filtros{
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
